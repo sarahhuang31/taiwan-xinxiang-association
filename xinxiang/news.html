@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>最新消息｜台灣心香協會</title>
+  <meta name="description" content="台灣心香協會最新消息：協會公告、媒體報導、藝術展覽、公益行動與國際交流。">
+  <meta name="theme-color" content="#F7F4ED">
+  <!-- 上線後請把 https://YOUR-SITE-URL/ 全站取代為正式網址（說明見 README） -->
+  <link rel="canonical" href="https://YOUR-SITE-URL/news.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:site_name" content="台灣心香協會">
+  <meta property="og:title" content="最新消息｜台灣心香協會">
+  <meta property="og:description" content="台灣心香協會最新消息：協會公告、媒體報導、藝術展覽、公益行動與國際交流。">
+  <meta property="og:url" content="https://YOUR-SITE-URL/news.html">
+  <meta property="og:image" content="https://YOUR-SITE-URL/assets/images/brand/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/images/brand/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/images/brand/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/brand/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@400;500&family=Noto+Sans+TC:wght@400;500&family=Noto+Serif+TC:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-page="news">
+  <a href="#main" class="sr-only z-[60] bg-forest px-4 py-2 text-paper focus:not-sr-only focus:fixed focus:left-4 focus:top-4">跳至主要內容</a>
+
+  <header id="site-header" class="site-header fixed inset-x-0 top-0 z-40">
+    <noscript><nav class="container-site flex flex-wrap gap-4 py-4 text-sm"><a href="index.html">首頁</a><a href="about.html">關於我們</a><a href="approach.html">藝術對話</a><a href="impact.html">公益行動</a><a href="events.html">展覽活動</a><a href="global.html">國際交流</a><a href="news.html">最新消息</a><a href="contact.html">合作聯絡</a></nav></noscript>
+  </header>
+
+  <main id="main" class="pt-[72px]">
+    <section class="border-b border-line" aria-labelledby="page-title">
+      <div class="container-site grid gap-10 pb-16 pt-16 sm:pb-20 sm:pt-24 lg:grid-cols-12">
+        <div class="lg:col-span-8">
+          <p class="eyebrow reveal">News</p>
+          <h1 id="page-title" class="reveal mt-6 text-4xl font-medium sm:text-6xl">最新消息</h1>
+          <p class="display-en reveal mt-4 text-xl text-muted sm:text-2xl" lang="en">News &amp; Announcements</p>
+          <p class="reveal mt-10 max-w-2xl text-[1.05rem] leading-loose">協會消息、媒體報導、展覽、公益行動與國際交流的最新動態。</p>
+        </div>
+        <div class="reveal lg:col-span-4 lg:self-end"></div>
+      </div>
+    </section>
+    <section id="news-app" class="container-site py-14" aria-label="消息列表">
+      <div class="flex flex-col gap-4 border-b border-line pb-8 sm:flex-row sm:items-center sm:justify-between">
+        <div id="news-filters" class="flex flex-wrap gap-2" role="group" aria-label="消息分類"></div>
+        <p id="news-count" class="text-sm text-muted" aria-live="polite"></p>
+      </div>
+      <div id="news-list" class="mt-6 border-b border-line"></div>
+    </section>
+
+  </main>
+
+  <footer id="site-footer" class="site-footer bg-forest text-paper"></footer>
+
+  <script src="data/site-config.js"></script>
+  <script src="data/news.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

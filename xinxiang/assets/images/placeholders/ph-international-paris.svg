@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" preserveAspectRatio="xMidYMid slice" width="1200" height="1200">
+<rect width="1200" height="1200" fill="#EFEBE1"/>
+
+    <path d="M150 120 V1060" stroke="#333B34" stroke-width="1" opacity=".18"/><path d="M262 120 V1060" stroke="#333B34" stroke-width="1" opacity=".18"/><path d="M374 120 V1060" stroke="#333B34" stroke-width="1" opacity=".18"/><path d="M486 120 V1060" stroke="#333B34" stroke-width="1" opacity=".18"/><path d="M598 120 V1060" stroke="#333B34" stroke-width="1" opacity=".18"/><path d="M710 120 V1060" stroke="#333B34" stroke-width="1" opacity=".18"/><path d="M822 120 V1060" stroke="#333B34" stroke-width="1" opacity=".18"/><path d="M934 120 V1060" stroke="#333B34" stroke-width="1" opacity=".18"/><path d="M1046 120 V1060" stroke="#333B34" stroke-width="1" opacity=".18"/>
+    <path d="M80 180 H1120" stroke="#333B34" stroke-width="1" opacity=".18"/><path d="M80 300 H1120" stroke="#333B34" stroke-width="1" opacity=".18"/><path d="M80 420 H1120" stroke="#333B34" stroke-width="1" opacity=".18"/><path d="M80 540 H1120" stroke="#333B34" stroke-width="1" opacity=".18"/><path d="M80 660 H1120" stroke="#333B34" stroke-width="1" opacity=".18"/><path d="M80 780 H1120" stroke="#333B34" stroke-width="1" opacity=".18"/><path d="M80 900 H1120" stroke="#333B34" stroke-width="1" opacity=".18"/><path d="M80 1020 H1120" stroke="#333B34" stroke-width="1" opacity=".18"/>
+    <circle cx="486" cy="420" r="26" fill="#D0A76B"/><circle cx="486" cy="420" r="80" fill="none" stroke="#D0A76B" stroke-width="2"/>
+<text x="600" y="1150" text-anchor="middle" font-family="DM Sans, Arial, sans-serif" font-size="22" letter-spacing="6" fill="#333B34" opacity=".55">示意圖 · PLACEHOLDER</text>
+</svg>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <!-- 404 頁可能出現在任何路徑下，這段程式自動判斷網站根目錄，讓圖片與連結正常運作 -->
+  <script>
+    (function () {
+      // 若網站放在「帳號.github.io」根目錄或自訂網域，可把 "auto" 改成 "/"
+      var SITE_BASE = "auto";
+      if (SITE_BASE !== "auto") { document.write('<base href="' + SITE_BASE + '">'); return; }
+      var seg = location.pathname.split("/")[1];
+      var base = /\.github\.io$/.test(location.hostname) && seg && seg.indexOf(".") < 0 ? "/" + seg + "/" : "/";
+      document.write('<base href="' + base + '">');
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>找不到頁面｜台灣心香協會</title>
+  <meta name="description" content="找不到您要的頁面。">
+  <meta name="theme-color" content="#F7F4ED">
+  <meta name="robots" content="noindex">
+  <!-- 上線後請把 https://YOUR-SITE-URL/ 全站取代為正式網址（說明見 README） -->
+  <link rel="canonical" href="https://YOUR-SITE-URL/404.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:site_name" content="台灣心香協會">
+  <meta property="og:title" content="找不到頁面｜台灣心香協會">
+  <meta property="og:description" content="找不到您要的頁面。">
+  <meta property="og:url" content="https://YOUR-SITE-URL/404.html">
+  <meta property="og:image" content="https://YOUR-SITE-URL/assets/images/brand/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/images/brand/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/images/brand/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/brand/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@400;500&family=Noto+Sans+TC:wght@400;500&family=Noto+Serif+TC:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-page="404">
+  <a href="#main" class="sr-only z-[60] bg-forest px-4 py-2 text-paper focus:not-sr-only focus:fixed focus:left-4 focus:top-4">跳至主要內容</a>
+
+  <header id="site-header" class="site-header fixed inset-x-0 top-0 z-40">
+    <noscript><nav class="container-site flex flex-wrap gap-4 py-4 text-sm"><a href="index.html">首頁</a><a href="about.html">關於我們</a><a href="approach.html">藝術對話</a><a href="impact.html">公益行動</a><a href="events.html">展覽活動</a><a href="global.html">國際交流</a><a href="news.html">最新消息</a><a href="contact.html">合作聯絡</a></nav></noscript>
+  </header>
+
+  <main id="main" class="pt-[72px]">
+    <section class="container-site flex min-h-[70vh] flex-col justify-center py-24">
+      <p class="font-display text-[7rem] italic leading-none text-gold sm:text-[10rem]" aria-hidden="true">404</p>
+      <h1 class="mt-6 text-3xl sm:text-4xl">找不到這個頁面</h1>
+      <p class="mt-4 max-w-xl leading-loose text-muted">頁面可能已移動或網址有誤。也許可以從這裡重新開始：</p>
+      <div class="mt-10 flex flex-wrap gap-4">
+        <a href="index.html" class="btn-primary">回到首頁</a>
+        <a href="events.html" class="btn-ghost">展覽與活動</a>
+        <a href="contact.html" class="btn-ghost">聯絡我們</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer bg-forest text-paper"></footer>
+
+  <script src="data/site-config.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
