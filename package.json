@@ -1,0 +1,15 @@
+{
+  "name": "taiwan-xinxiang-website",
+  "version": "1.0.0",
+  "description": "台灣心香協會官方網站",
+  "scripts": {
+    "build:css": "tailwindcss -c tailwind.config.js -i src/input.css -o assets/css/site.css --minify",
+    "watch:css": "tailwindcss -c tailwind.config.js -i src/input.css -o assets/css/site.css --watch",
+    "placeholders": "node tools/make-placeholders.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "private": true
+}

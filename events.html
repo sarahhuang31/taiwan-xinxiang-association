@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>展覽與活動｜台灣心香協會</title>
+  <meta name="description" content="台灣心香協會歷年藝術展覽與活動：2023 愛的世界、2025 舒心．美好藝術成果展、2026 和光同塵藝術聯展，以及國際交流紀錄。">
+  <meta name="theme-color" content="#F7F4ED">
+  <!-- 上線後請把 https://YOUR-SITE-URL/ 全站取代為正式網址（說明見 README） -->
+  <link rel="canonical" href="https://YOUR-SITE-URL/events.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:site_name" content="台灣心香協會">
+  <meta property="og:title" content="展覽與活動｜台灣心香協會">
+  <meta property="og:description" content="台灣心香協會歷年藝術展覽與活動：2023 愛的世界、2025 舒心．美好藝術成果展、2026 和光同塵藝術聯展，以及國際交流紀錄。">
+  <meta property="og:url" content="https://YOUR-SITE-URL/events.html">
+  <meta property="og:image" content="https://YOUR-SITE-URL/assets/images/brand/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/images/brand/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/images/brand/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/brand/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@400;500&family=Noto+Sans+TC:wght@400;500&family=Noto+Serif+TC:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-page="events">
+  <a href="#main" class="sr-only z-[60] bg-forest px-4 py-2 text-paper focus:not-sr-only focus:fixed focus:left-4 focus:top-4">跳至主要內容</a>
+
+  <header id="site-header" class="site-header fixed inset-x-0 top-0 z-40">
+    <noscript><nav class="container-site flex flex-wrap gap-4 py-4 text-sm"><a href="index.html">首頁</a><a href="about.html">關於我們</a><a href="approach.html">藝術對話</a><a href="impact.html">公益行動</a><a href="events.html">展覽活動</a><a href="global.html">國際交流</a><a href="news.html">最新消息</a><a href="contact.html">合作聯絡</a></nav></noscript>
+  </header>
+
+  <main id="main" class="pt-[72px]">
+    <section class="border-b border-line" aria-labelledby="page-title">
+      <div class="container-site grid gap-10 pb-16 pt-16 sm:pb-20 sm:pt-24 lg:grid-cols-12">
+        <div class="lg:col-span-8">
+          <p class="eyebrow reveal">Exhibitions &amp; Events</p>
+          <h1 id="page-title" class="reveal mt-6 text-4xl font-medium sm:text-6xl">展覽與活動</h1>
+          <p class="display-en reveal mt-4 text-xl text-muted sm:text-2xl" lang="en">Exhibitions, Workshops &amp; Exchanges</p>
+          <p class="reveal mt-10 max-w-2xl text-[1.05rem] leading-loose">歷年藝術展覽、工作坊、公益行動與國際交流。可依年份與類別篩選，點選活動查看詳情與資料來源。</p>
+        </div>
+        <div class="reveal lg:col-span-4 lg:self-end"></div>
+      </div>
+    </section>
+    <section id="events-app" class="container-site py-14" aria-label="活動資料庫">
+      <div class="space-y-5 border-b border-line pb-8">
+        <div><p class="mb-3 text-xs tracking-[0.18em] text-muted" id="year-label">年份</p><div id="filter-years" class="flex flex-wrap gap-2" role="group" aria-labelledby="year-label"></div></div>
+        <div><p class="mb-3 text-xs tracking-[0.18em] text-muted" id="cat-label">類別</p><div id="filter-categories" class="flex flex-wrap gap-2" role="group" aria-labelledby="cat-label"></div></div>
+        <p id="events-count" class="text-sm text-muted" aria-live="polite"></p>
+      </div>
+
+      <section class="pt-16" aria-labelledby="upcoming-title">
+        <div class="flex items-baseline gap-5"><h2 id="upcoming-title" class="text-3xl">近期活動</h2><span class="eyebrow">Upcoming</span></div>
+        <div id="events-upcoming" class="mt-10 grid gap-x-10 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"></div>
+      </section>
+
+      <section class="pt-24" aria-labelledby="past-title">
+        <div class="flex items-baseline gap-5"><h2 id="past-title" class="text-3xl">過去活動</h2><span class="eyebrow">Archive</span></div>
+        <div id="events-past" class="mt-10 grid items-start gap-x-10 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"></div>
+      </section>
+    </section>
+
+    <dialog id="event-dialog" class="event-dialog" aria-labelledby="event-dialog-title">
+      <div class="relative">
+        <button type="button" data-close-dialog class="absolute right-3 top-3 z-10 flex h-11 w-11 items-center justify-center bg-paper/90">
+          <span class="sr-only">關閉活動詳情</span>
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 20 20"><path d="M2 2l16 16M18 2 2 18" stroke="#333B34" stroke-width="1.5"/></svg>
+        </button>
+        <div id="event-dialog-body"></div>
+      </div>
+    </dialog>
+    <section class="section border-t border-line bg-linen" aria-labelledby="cta-title">
+      <div class="container-site grid gap-10 lg:grid-cols-12 lg:items-end">
+        <div class="lg:col-span-7">
+          <p class="eyebrow reveal">Collaborate</p>
+          <h2 id="cta-title" class="h-section reveal mt-5">邀請我們辦展或工作坊</h2>
+          <p class="reveal mt-6 max-w-xl leading-loose">場館、學校與機構歡迎洽談展覽與藝術活動合作。</p>
+        </div>
+        <div class="reveal flex flex-col gap-3 lg:col-span-4 lg:col-start-9"><a href="contact.html?type=exhibition" class="btn-primary justify-between">展覽邀請 <span aria-hidden="true">→</span></a><a href="contact.html?type=workshop" class="btn-ghost justify-between">藝術工作坊洽詢 <span aria-hidden="true">→</span></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer bg-forest text-paper"></footer>
+
+  <script src="data/site-config.js"></script>
+  <script src="data/events.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
