@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" preserveAspectRatio="xMidYMid slice" width="1200" height="1200">
-<rect width="1200" height="1200" fill="#EFEBE1"/>
-
-    <path d="M200 900 C 300 500, 600 300, 1000 260" stroke="#D0A76B" stroke-width="80" fill="none" stroke-linecap="round" opacity=".7"/>
-    <path d="M160 980 C 400 760, 760 700, 1060 760" stroke="#333B34" stroke-width="3" fill="none"/>
-<text x="600" y="1150" text-anchor="middle" font-family="DM Sans, Arial, sans-serif" font-size="22" letter-spacing="6" fill="#333B34" opacity=".55">示意圖 · PLACEHOLDER</text>
-</svg>

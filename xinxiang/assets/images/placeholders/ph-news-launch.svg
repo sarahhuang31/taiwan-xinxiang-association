@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" preserveAspectRatio="xMidYMid slice" width="1200" height="1200">
-<rect width="1200" height="1200" fill="#F7F4ED"/>
-
-    <rect x="260" y="260" width="680" height="680" fill="none" stroke="#333B34" stroke-width="1.5"/>
-    <rect x="320" y="320" width="560" height="560" fill="#D8DFD1" opacity=".6"/>
-    <circle cx="600" cy="600" r="22" fill="#D0A76B"/>
-<text x="600" y="1150" text-anchor="middle" font-family="DM Sans, Arial, sans-serif" font-size="22" letter-spacing="6" fill="#333B34" opacity=".55">示意圖 · PLACEHOLDER</text>
-</svg>
